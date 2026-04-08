@@ -1,20 +1,23 @@
 # 🤖 AI-Assisted AML Case Review & Decision Support System
 
 ## 📌 Overview
-This project simulates an AI-assisted compliance case review tool designed to support analysts in reviewing transaction monitoring alerts more efficiently.
 
-It transforms structured alert data into investigation-ready outputs including summaries, risk assessments, key drivers, and recommended actions.
+This project simulates an AI-assisted AML case review and decision support system designed to enhance analyst efficiency and consistency in transaction monitoring workflows.
 
-This represents the decision-support layer in modern AML systems, where automation enhances analyst productivity and consistency in case handling.
+It transforms structured alert data into investigation-ready outputs, including case summaries, risk assessments, key risk drivers, and recommended actions.
+
+This represents the decision-support layer in modern AML systems, building on detection (Project 1) and optimisation (Project 2) to assist analysts in making faster, more consistent, and explainable decisions.
 
 ---
 
 ## 📂 Access Notebook
+
 👉 [View Notebook on GitHub](https://github.com/FarzeanHassim/ai-aml-case-review-decision-support/blob/main/ai_compliance_case_review_assistant.ipynb)
 
 ---
 
 ## 🎯 Objective
+
 - Generate case summaries from alert data  
 - Assign risk levels based on AML indicators  
 - Highlight key risk drivers  
@@ -23,7 +26,24 @@ This represents the decision-support layer in modern AML systems, where automati
 
 ---
 
+## 🧠 System Architecture
+
+This project simulates the decision-support layer within an AML monitoring pipeline:
+
+1. Alert generation (Project 1: rules-based detection)  
+2. Alert optimisation (Project 2: ML-based filtering)  
+3. Case review input (structured alert data)  
+4. AI-assisted case summarisation  
+5. Risk assessment and driver identification  
+6. Recommended action generation  
+7. Analyst review and escalation  
+
+This demonstrates how AI can augment human decision-making in financial crime compliance workflows.
+
+---
+
 ## ⚙️ Methodology
+
 1. Input structured alert data  
 2. Apply rule-based logic to assign risk levels  
 3. Identify key risk drivers (PEP, sanctions, country risk, etc.)  
@@ -32,7 +52,26 @@ This represents the decision-support layer in modern AML systems, where automati
 
 ---
 
+## ⚙️ Decisioning Workflow
+
+The system supports analyst decision-making by:
+
+- Translating alert data into structured case summaries  
+- Identifying key risk drivers for transparency  
+- Recommending actions based on risk level  
+
+These outputs can be used by analysts to:
+
+- Escalate high-risk cases  
+- Request further documentation  
+- De-prioritise low-risk alerts  
+
+This creates a consistent and explainable decisioning workflow across investigations.
+
+---
+
 ## 📊 Key Output
+
 - Case summary  
 - Risk level classification  
 - Risk driver explanation  
@@ -43,17 +82,22 @@ Supports faster and more consistent analyst review in transaction monitoring wor
 ---
 
 ## 🧠 Key Insight
-Manual AML case review processes are time-consuming and inconsistent.
 
-AI-assisted tools can:
-- Improve productivity  
-- Enhance consistency  
-- Reduce manual workload  
-- Support faster decision-making  
+Traditional case review processes rely heavily on manual analysis, leading to variability and inefficiencies.
+
+AI-assisted decision support systems enhance these processes by:
+
+- Standardising case summaries and outputs  
+- Improving consistency in analyst decisions  
+- Highlighting key risk drivers for transparency  
+- Supporting faster and more informed decision-making  
+
+This reflects a shift towards augmented intelligence, where AI supports — rather than replaces — human investigators.
 
 ---
 
 ## 🏦 Real-World Application
+
 Applicable to:
 - AML case management systems  
 - Fraud investigation workflows  
@@ -67,20 +111,37 @@ This reflects how AI is increasingly used to support:
 ---
 
 ## 🛠️ Tools Used
+
 - Python  
 - Pandas  
 
 ---
 
+## ⚠️ AI Considerations
+
+In real-world deployment, AI-assisted decision support systems must ensure:
+
+- Explainability of outputs for regulatory compliance  
+- Human-in-the-loop validation for critical decisions  
+- Consistent model behaviour across cases  
+- Integration with existing case management systems  
+
+These considerations are essential in financial crime compliance environments.
+
+---
+
 ## 💼 Business Impact
+
 - Reduces manual effort in case summarisation  
-- Improves consistency in analyst decisions  
-- Enables faster investigation turnaround  
-- Supports prioritisation of high-risk alerts  
+- Improves consistency and quality of analyst decisions  
+- Accelerates investigation turnaround time  
+- Enhances explainability and transparency in decision-making  
+- Supports scalable compliance operations through decision support automation  
 
 ---
 
 ## ⚠️ Limitations
+
 - Uses simplified rule-based logic  
 - Does not incorporate real-time learning  
 - Requires integration with case management systems in real-world use  
@@ -88,6 +149,7 @@ This reflects how AI is increasingly used to support:
 ---
 
 ## 🚀 Future Improvements
+
 - Integrate large language models (LLMs) for advanced summarisation  
 - Build interactive dashboard for analysts  
 - Connect with transaction monitoring systems  
