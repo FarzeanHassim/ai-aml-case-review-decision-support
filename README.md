@@ -2,11 +2,9 @@
 
 ## 📌 Overview
 
-This project simulates an AI-assisted AML case review and decision support system designed to enhance analyst efficiency and consistency in transaction monitoring workflows.
+This project represents the decision-support layer within an AI-enabled AML operating model, bridging alert detection and investigation workflows.
 
-It transforms structured alert data into investigation-ready outputs, including case summaries, risk assessments, key risk drivers, and recommended actions.
-
-This represents the decision-support layer in modern AML systems, building on detection (Project 1) and optimisation (Project 2) to assist analysts in making faster, more consistent, and explainable decisions.
+It demonstrates how structured workflows can be enhanced with AI-assisted summarisation, risk interpretation, and decision recommendations to support faster, more consistent, and explainable analyst decisions in surveillance operations.
 
 ---
 
@@ -42,13 +40,27 @@ This demonstrates how AI can augment human decision-making in financial crime co
 
 ---
 
+## 🧩 Role in AML Operating Model
+
+This system represents the decision-support layer in a modern AML operating model:
+
+- Detection Layer → Rules-based and ML-driven alert generation  
+- Optimisation Layer → False positive reduction and signal refinement  
+- Decision-Support Layer (this project) → AI-assisted case review and recommendations  
+- Investigation Layer → Analyst validation and escalation  
+
+This layered approach reflects how financial institutions evolve from manual workflows into structured, AI-enabled surveillance systems.
+
+---
 ## ⚙️ Methodology
 
 1. Input structured alert data  
 2. Apply rule-based logic to assign risk levels  
 3. Identify key risk drivers (PEP, sanctions, country risk, etc.)  
 4. Generate case summaries  
-5. Recommend actions based on risk  
+5. Recommend actions based on risk
+
+This approach simulates how AI-assisted systems transform structured data into decision-ready insights for analysts.
 
 ---
 
@@ -130,13 +142,27 @@ These considerations are essential in financial crime compliance environments.
 
 ---
 
+## 🔄 Evolution Towards GenAI & Copilot Systems
+
+This system can be extended into a GenAI-powered AML copilot by:
+
+- Using LLMs to generate more advanced case narratives  
+- Providing contextual explanations for risk assessments  
+- Supporting interactive query-based investigation workflows  
+- Integrating with agentic AI frameworks for multi-step case analysis  
+
+This reflects the industry shift toward AI copilots that augment analysts in complex financial crime investigations.
+
+---
+
 ## 💼 Business Impact
 
 - Reduces manual effort in case summarisation  
 - Improves consistency and quality of analyst decisions  
 - Accelerates investigation turnaround time  
 - Enhances explainability and transparency in decision-making  
-- Supports scalable compliance operations through decision support automation  
+- Supports scalable compliance operations through decision support automation
+- Acts as a foundation for AI-powered AML copilots and decision-support systems in modern financial institutions.
 
 ---
 
